@@ -1,6 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Guide from "./pages/guide";
+import Faq from "./pages/faq";
+import Calculate from "./pages/calculate";
+import Introduce from "./pages/introduce";
 import "./styles/global.css";
 import "./styles/fonts.css";
 
