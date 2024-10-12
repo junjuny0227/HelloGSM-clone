@@ -12,6 +12,8 @@ const Wrapper = styled.header`
   align-items: center;
   border-bottom: 0.0625rem solid #f3f4f6;
   padding: 0 20rem 0 20rem;
+  background-color: white;
+  z-index: 10;
 `;
 
 const Nav = styled.nav`
