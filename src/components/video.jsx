@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import Greeting from "./greeting";
+import FindMore from "./find-more";
 
 const Wrapper = styled.section`
   width: 100%;
@@ -29,6 +31,8 @@ function VideoSection() {
         <source src="/public/videos/promotion.webm" type="video/webm" />
         <source src="/public/videos/promotion.mp4" type="video/mp4" />
       </StyledVidio>
+      <Greeting />
+      <FindMore />
     </Wrapper>
   );
 }
