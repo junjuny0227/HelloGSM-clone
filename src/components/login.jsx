@@ -144,10 +144,9 @@ function Login({ isOpen, onClose }) {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-x h-4 w-4"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           onClick={onClose}
         >
           <path d="M18 6 6 18"></path>
