@@ -85,7 +85,7 @@ function Login({ isOpen, onClose }) {
   };
 
   const handleContainerClick = (e) => {
-    e.stopPropagation(); // 모달 내부 클릭은 이벤트 전파 중단
+    e.stopPropagation();
   };
 
   return (
@@ -148,7 +148,7 @@ function Login({ isOpen, onClose }) {
           stroke-linecap="round"
           stroke-linejoin="round"
           class="lucide lucide-x h-4 w-4"
-          onClick={onClose} // 여기에 클릭 이벤트 추가
+          onClick={onClose}
         >
           <path d="M18 6 6 18"></path>
           <path d="m6 6 12 12"></path>
