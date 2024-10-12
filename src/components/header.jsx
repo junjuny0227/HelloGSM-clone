@@ -34,7 +34,7 @@ const StyledLink = styled(Link)`
 const LoginBtn = styled.button`
   height: 2.5rem;
   font-size: 0.875rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25rem;
   color: white;
   padding: 0.5rem 1rem;
