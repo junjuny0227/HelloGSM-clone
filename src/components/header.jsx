@@ -16,6 +16,10 @@ const Wrapper = styled.header`
   z-index: 10;
 `;
 
+const StyledSvg = styled.svg`
+  cursor: pointer;
+`;
+
 const Nav = styled.nav`
   width: 35.5rem;
   font-size: 1.125rem;
@@ -59,7 +63,7 @@ function Header() {
 
   return (
     <Wrapper>
-      <svg
+      <StyledSvg
         width="169"
         height="40"
         viewBox="0 0 169 40"
@@ -181,7 +185,7 @@ function Header() {
             ></feBlend>
           </filter>
         </defs>
-      </svg>
+      </StyledSvg>
       <Nav>
         <StyledLink to="/">홈</StyledLink>
         <StyledLink to="/guide">원서접수</StyledLink>
