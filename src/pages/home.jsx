@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Header from "../components/header";
+import VideoSection from "../components/video";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -11,6 +12,7 @@ function Home() {
   return (
     <Wrapper>
       <Header />
+      <VideoSection />
     </Wrapper>
   );
 }
