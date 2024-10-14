@@ -6,17 +6,20 @@ import Calculate from "./pages/calculate";
 import Introduce from "./pages/introduce";
 import "./styles/global.css";
 import "./styles/fonts.css";
+import Layout from "./components/layout";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/guide" element={<Guide />} />
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/calculate" element={<Calculate />} />
-        <Route path="/introduce" element={<Introduce />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/guide" element={<Guide />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/calculate" element={<Calculate />} />
+          <Route path="/introduce" element={<Introduce />} />
+        </Routes>
+      </Layout>
     </BrowserRouter>
   );
 }
