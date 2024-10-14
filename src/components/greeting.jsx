@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -68,6 +69,9 @@ const Button = styled.button`
 `;
 
 function Greeting() {
+  const navigate = useNavigate();
+  const handleClick = () => navigate("/guide");
+
   return (
     <Wrapper>
       <Container>
@@ -81,7 +85,7 @@ function Greeting() {
             접수기간 : 2024.10.14. (월) 오전 9시 ~ 2024.10.17. (목) 오후 5시
           </SubMessage>
         </MessageBox>
-        <Button>원서접수 하러 가기</Button>
+        <Button onClick={handleClick}>원서접수 하러 가기</Button>
       </Container>
     </Wrapper>
   );
