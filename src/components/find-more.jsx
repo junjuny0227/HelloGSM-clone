@@ -15,6 +15,7 @@ const Text = styled.p`
   cursor: pointer;
   color: white;
   font-weight: 600;
+  text-align: center;
 `;
 
 const StyledSvg = styled.svg`
@@ -50,6 +51,7 @@ function FindMore() {
         onClick={handleScroll}
       >
         GSM 더 알아보기
+        <br /> 문제 발생 시 채널톡으로 문의해주세요
       </Text>
       <StyledSvg
         onClick={handleScroll}
