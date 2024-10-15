@@ -10,6 +10,7 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   top: 4.625rem;
+  margin-bottom: 4.625rem;
 `;
 
 const StyledVidio = styled.video`
