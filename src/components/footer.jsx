@@ -31,13 +31,7 @@ const LegalInfo = styled.div`
   gap: 0.5rem;
 `;
 
-const Text = styled.p`
-  font-size: 1rem;
-  line-height: 1.5rem;
-  text-align: right;
-`;
-
-const CopyrightNotice = styled(Text)`
+const CopyrightNotice = styled.p`
   color: #475569;
   font-weight: 400;
   font-size: 1rem;
